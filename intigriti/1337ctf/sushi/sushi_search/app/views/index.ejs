@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Sushi Search Engine</title>
+        <link
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link href="/public/css/styles.css" rel="stylesheet" />
+        <link rel="icon" href="/public/images/sushi.png" type="image/png" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/">🍣 Sushi Search</a>
+        </nav>
+        <div class="sushi-header">
+            <img src="/public/images/sushi.png" alt="Sushi Splash" />
+        </div>
+        <div class="container">
+            <h1 class="text-center">Welcome to Sushi Search</h1>
+            <p class="text-center">
+                Find the best sushi items that match your taste. Use the search bar below to explore
+                our sushi catalog.
+            </p>
+            <form action="/search" method="get" class="text-center">
+                <div class="form-group">
+                    <input
+                        type="text"
+                        name="search"
+                        class="form-control form-control-lg"
+                        placeholder="Search for sushi..."
+                        required
+                    />
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg">Search</button>
+            </form>
+            <a href="/report">Report a broken sushi link.</a>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  vm-challenge:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - ./challenge:/var/www/html
+      - ./flag.txt:/flag.txt:ro
+    restart: unless-stopped
+    environment:
+      - FLAG=zwx{obfuscated_vm_in_php_areAW3s0m3_!33t}

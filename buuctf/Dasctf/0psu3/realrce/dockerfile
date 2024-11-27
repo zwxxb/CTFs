@@ -1,0 +1,28 @@
+FROM centos:centos8
+
+# 设置工作目录
+WORKDIR /app
+
+# 更新
+RUN sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-* 
+RUN sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
+RUN yum makecache && yum update -y
+
+# 安装 Node.js
+RUN curl -sL https://rpm.nodesource.com/setup_16.x | bash
+RUN yum install -y nodejs
+
+# 显示 Node.js 和 npm 版本
+RUN node -v
+RUN npm -v
+
+# 拷贝代码 
+COPY app/ .
+EXPOSE 3000
+
+RUN npm init -f
+RUN npm install
+RUN npm install express ejs
+RUN ./flag.sh
+
+CMD [ "npm", "run" , "start"]

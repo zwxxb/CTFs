@@ -1,0 +1,20 @@
+POST /auth/fruitables_login.php?error=Sorry%2C+registration+is+currently+closed%21 HTTP/2
+Host: fruitables-4.ctf.intigriti.io
+Cookie: PHPSESSID=e84744e580b54bf515a483357094d785
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 78
+Origin: https://fruitables-4.ctf.intigriti.io
+Referer: https://fruitables-4.ctf.intigriti.io/auth/fruitables_login.php?error=Sorry%2C+registration+is+currently+closed%21
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+Te: trailers
+
+username=*&password=abc

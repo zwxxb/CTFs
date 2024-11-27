@@ -1,0 +1,16 @@
+h1, p, h2, h3 {
+  text-align: center;
+}
+
+#theme {
+  padding: 0.5em;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+}
+
+.con-cat {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+}

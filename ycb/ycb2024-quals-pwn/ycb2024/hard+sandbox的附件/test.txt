@@ -1,0 +1,588 @@
+0x000000000008a2db : call qword ptr [rdi + 0x18]
+0x0000000000061e41 : call qword ptr [rdi + 0x38]
+0x0000000000158f53 : call qword ptr [rdi + 0x40]
+0x000000000010581d : call qword ptr [rdi + 0x5ba1774]
+0x0000000000086560 : call qword ptr [rdi + 0x80]
+0x000000000008610f : call qword ptr [rdi + 0x90]
+0x0000000000097c3d : call qword ptr [rdi + 7]
+0x000000000003ef11 : call qword ptr [rdi - 0x7af0ffe5]
+0x000000000006e095 : call qword ptr [rdi - 0xbdffe8]
+0x000000000016609d : call qword ptr [rdi - 0xf]
+0x00000000000242c4 : call qword ptr [rdi]
+0x00000000000235a1 : call rdi
+0x00000000001186ee : mov al, 0x41 ; call rdi
+0x000000000003ef0f : mov cl, 0x15 ; call qword ptr [rdi - 0x7af0ffe5]
+0x00000000000897bd : mov dh, 0x37 ; mov rdi, r13 ; call qword ptr [rax + 0x18]
+0x0000000000025539 : mov dl, byte ptr [rax + rax] ; mov rdi, rbx ; call r14
+0x000000000003e1b6 : mov dword ptr [rbp], edx ; mov rdi, qword ptr [rbx + 8] ; call rax
+0x00000000000a2b37 : mov dword ptr [rbx], esi ; mov qword ptr [rbx + 0x48], rdi ; call rax
+0x0000000000164ab8 : mov dword ptr [rsp + 0x10], eax ; mov rax, qword ptr [rdi + 8] ; call qword ptr [rax + 8]
+0x0000000000165610 : mov dword ptr [rsp + 4], eax ; mov rax, qword ptr [rdi + 8] ; call qword ptr [rax + 0x48]
+0x000000000008b888 : mov dword ptr [rsp + 8], eax ; mov rdi, rsi ; call qword ptr [rbp + 0x348]
+0x00000000000813df : mov dword ptr [rsp + 8], ecx ; mov rdi, r15 ; call rax
+0x0000000000158b4f : mov dword ptr [rsp], eax ; mov rax, qword ptr [rdi + 8] ; call qword ptr [rax + 8]
+0x00000000000864b0 : mov dword ptr [rsp], ecx ; mov rdi, rbx ; call rax
+0x0000000000158642 : mov eax, dword ptr [rax + 0x23b8] ; mov rdi, rbp ; call qword ptr [rax + 0x28]
+0x00000000001630db : mov eax, dword ptr [rbp + 0x18] ; mov rdi, r13 ; call qword ptr [rax + 0x20]
+0x000000000015fc6d : mov eax, dword ptr [rbp + 0x60] ; mov rdi, r12 ; call qword ptr [rax + 0x20]
+0x0000000000024c9e : mov eax, dword ptr [rbp - 0x68] ; mov rdi, r14 ; call rax
+0x00000000001566a3 : mov eax, dword ptr [rbx + 0x20] ; mov rdi, rbp ; call qword ptr [rax + 0x20]
+0x00000000001585ec : mov eax, dword ptr [rbx + 0x23b8] ; mov rdi, r12 ; call qword ptr [rax + 0x20]
+0x00000000001575b9 : mov eax, dword ptr [rbx + 0x38] ; mov rdi, rbx ; call qword ptr [rax + 0x20]
+0x000000000015ff4e : mov eax, dword ptr [rbx + 0x60] ; mov rdi, r12 ; call qword ptr [rax + 0x20]
+0x00000000001571a5 : mov eax, dword ptr [rbx + 8] ; mov esi, r14d ; mov rdi, rbx ; call qword ptr [rax + 0x28]
+0x0000000000156d7f : mov eax, dword ptr [rbx + 8] ; mov rdi, rbx ; call qword ptr [rax + 0x20]
+0x0000000000162469 : mov eax, dword ptr [rbx + 8] ; mov rdi, rbx ; call qword ptr [rax + 0x28]
+0x0000000000162311 : mov eax, dword ptr [rbx + 8] ; mov rdi, rbx ; call qword ptr [rax + 8]
+0x0000000000158c33 : mov eax, dword ptr [rbx + 8] ; mov rsi, r12 ; mov rdi, rbx ; call qword ptr [rax]
+0x000000000015d2c1 : mov eax, dword ptr [rbx + 8] ; mov rsi, rbp ; mov rdi, rbx ; call qword ptr [rax + 0x48]
+0x000000000016232c : mov eax, dword ptr [rbx + 8] ; mov rsi, rbp ; mov rdi, rbx ; call qword ptr [rax]
+0x0000000000160224 : mov eax, dword ptr [rbx] ; mov rdi, qword ptr [rax] ; mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 0x20]
+0x00000000001565cb : mov eax, dword ptr [rdi + 0x38] ; call qword ptr [rax + 0x10]
+0x0000000000156527 : mov eax, dword ptr [rdi + 0x38] ; call qword ptr [rax + 0x18]
+0x000000000016022a : mov eax, dword ptr [rdi + 0x38] ; call qword ptr [rax + 0x20]
+0x0000000000156477 : mov eax, dword ptr [rdi + 0x38] ; call qword ptr [rax + 8]
+0x000000000015f44e : mov eax, dword ptr [rdi + 0x38] ; mov rsi, rbx ; call qword ptr [rax + 8]
+0x000000000015f436 : mov eax, dword ptr [rdi + 0x60] ; call qword ptr [rax + 8]
+0x000000000015f475 : mov eax, dword ptr [rdi + 0x60] ; mov rdi, rbx ; call qword ptr [rax + 0x20]
+0x000000000015ea05 : mov eax, dword ptr [rdi + 0x70] ; call qword ptr [rax + 0x18]
+0x000000000015bcff : mov eax, dword ptr [rdi + 0xd0] ; call qword ptr [rax + 0x18]
+0x0000000000164a11 : mov eax, dword ptr [rdi + 8] ; call qword ptr [rax + 0x10]
+0x00000000001649e1 : mov eax, dword ptr [rdi + 8] ; call qword ptr [rax + 0x18]
+0x000000000015680d : mov eax, dword ptr [rdi + 8] ; call qword ptr [rax + 0x20]
+0x00000000001602d0 : mov eax, dword ptr [rdi + 8] ; call qword ptr [rax + 0x28]
+0x0000000000157dca : mov eax, dword ptr [rdi + 8] ; call qword ptr [rax + 0x30]
+0x0000000000165615 : mov eax, dword ptr [rdi + 8] ; call qword ptr [rax + 0x48]
+0x0000000000158b53 : mov eax, dword ptr [rdi + 8] ; call qword ptr [rax + 8]
+0x0000000000165231 : mov eax, dword ptr [rdi + 8] ; mov rsi, rsp ; call qword ptr [rax + 0x40]
+0x0000000000158b61 : mov eax, dword ptr [rdi + 8] ; mov rsi, rsp ; call qword ptr [rax]
+0x000000000015ef15 : mov eax, dword ptr [rsi + 0x70] ; mov rdi, r12 ; call qword ptr [rax + 0x20]
+0x000000000015c471 : mov eax, dword ptr [rsi + 0xd0] ; mov rdi, r12 ; call qword ptr [rax + 0x20]
+0x00000000001614b5 : mov eax, dword ptr [rsi + 8] ; mov rdi, r14 ; call qword ptr [rax + 0x20]
+0x000000000016d7e9 : mov eax, dword ptr [rsp + 0x10] ; mov rdi, qword ptr [rsp + 0x18] ; call rax
+0x0000000000137126 : mov eax, dword ptr [rsp + 0x18] ; mov rdi, rbx ; call rax
+0x000000000015dc92 : mov eax, dword ptr [rsp + 0x58] ; mov rdi, rbp ; call qword ptr [rax + 0x20]
+0x0000000000156c49 : mov eax, dword ptr [rsp + 8] ; mov rdi, r12 ; call qword ptr [rax + 0x20]
+0x000000000015d959 : mov eax, dword ptr [rsp + 8] ; mov rdi, rbp ; call qword ptr [rax + 0x20]
+0x000000000015623a : mov eax, dword ptr [rsp + 8] ; mov rdi, rbx ; call qword ptr [rax + 0x20]
+0x000000000007f5d2 : mov eax, dword ptr [rsp] ; mov esi, r12d ; mov rdi, r14 ; call qword ptr [rax + 0x18]
+0x000000000003fc56 : mov eax, dword ptr [rsp] ; mov rsi, r13 ; mov rdi, r15 ; call rax
+0x000000000014c99b : mov eax, ebp ; mov rcx, r14 ; mov rdi, r13 ; call r12
+0x000000000017035f : mov ebp, dword ptr [rsi + 8] ; mov rdi, r13 ; call 0x22360
+0x000000000007b2d7 : mov ebp, edx ; mov rdi, qword ptr [rdi + 0xe0] ; call rax
+0x0000000000091780 : mov ebp, esp ; mov rdi, r15 ; call 0x8da40
+0x00000000000dee28 : mov ebp, esp ; mov rdi, rbx ; call r14
+0x0000000000098b0c : mov ebx, dword ptr [rbx + 0x18] ; mov rdi, qword ptr [rax + 8] ; call qword ptr [rax]
+0x00000000001572d7 : mov ebx, eax ; mov rax, qword ptr [rdi + 8] ; call qword ptr [rax + 0x20]
+0x00000000000955dd : mov ebx, edi ; mov rdi, qword ptr [rdi + 8] ; call qword ptr [rbx]
+0x000000000016d78f : mov ecx, dword ptr [rsp + 0x10] ; mov rdi, qword ptr [rsp + 0x18] ; call rcx
+0x000000000015bd4c : mov ecx, dword ptr [rsp + 0x20] ; mov rdi, rbx ; call rcx
+0x000000000005240c : mov ecx, ebp ; mov rsi, rdi ; call 0x4e6c0
+0x000000000008296d : mov ecx, esi ; mov rdi, r13 ; call r12
+0x000000000015bf33 : mov edi, dword ptr [rax] ; mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 0x10]
+0x000000000015be6a : mov edi, dword ptr [rax] ; mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 0x18]
+0x0000000000160227 : mov edi, dword ptr [rax] ; mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 0x20]
+0x000000000015bd33 : mov edi, dword ptr [rax] ; mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 8]
+0x000000000015fa79 : mov edi, dword ptr [rbp] ; mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 0x18]
+0x0000000000160231 : mov edi, dword ptr [rbx] ; mov rax, qword ptr [rdi + 8] ; call qword ptr [rax + 0x20]
+0x000000000008c180 : mov edi, dword ptr [rdi + 0x10] ; call qword ptr [rax + 0x348]
+0x0000000000165994 : mov edi, dword ptr [rdi + 0x18] ; call 0x22600
+0x00000000000a2c0d : mov edi, dword ptr [rdi + 0x48] ; mov rsi, rbp ; call rax
+0x000000000007b2da : mov edi, dword ptr [rdi + 0xe0] ; call rax
+0x00000000000955e0 : mov edi, dword ptr [rdi + 8] ; call qword ptr [rbx]
+0x00000000000d5c62 : mov edi, dword ptr [rdi + rbx + 0x70] ; call 0x22670
+0x000000000015ec07 : mov edi, dword ptr [rdi] ; mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 0x10]
+0x00000000000818c9 : mov edx, 1 ; mov rdi, r15 ; call qword ptr [rbp + 0x80]
+0x0000000000087169 : mov edx, 1 ; mov rdi, rbx ; call qword ptr [rax + 0x80]
+0x00000000000821e6 : mov edx, 1 ; mov rdi, rbx ; call qword ptr [rbp + 0x80]
+0x000000000007ab76 : mov edx, 2 ; mov rdi, r15 ; call qword ptr [rbx + 0x80]
+0x0000000000086665 : mov edx, 2 ; mov rdi, rbx ; call qword ptr [rbp + 0x80]
+0x0000000000160e57 : mov edx, dword ptr [rax + 0x38] ; mov rdi, rax ; call qword ptr [rdx + 0x20]
+0x000000000014ca01 : mov edx, dword ptr [rdi] ; mov rcx, r14 ; mov rdi, r13 ; call r12
+0x000000000006f47a : mov edx, eax ; mov rsi, rbp ; mov rdi, rbx ; call qword ptr [r14 + 0x38]
+0x0000000000040c70 : mov edx, ebp ; mov rdi, r12 ; call rbx
+0x00000000001587b1 : mov edx, ebp ; mov rdi, r13 ; call qword ptr [rax + 0x10]
+0x00000000001587eb : mov edx, ebp ; mov rdi, r13 ; call qword ptr [rax + 0x20]
+0x00000000000600aa : mov edx, ebp ; mov rdi, rbx ; call qword ptr [rbp + 0x38]
+0x000000000004079e : mov edx, ebp ; mov rsi, r12 ; mov rdi, r14 ; call rbx
+0x000000000007ddf6 : mov edx, ebp ; mov rsi, r12 ; mov rdi, rbp ; call qword ptr [r14 + 0x38]
+0x000000000007d0ca : mov edx, ebp ; mov rsi, r12 ; mov rdi, rbx ; call qword ptr [r13 + 0x58]
+0x000000000007dd3c : mov edx, ebp ; mov rsi, r12 ; mov rdi, rbx ; call qword ptr [r14 + 0x38]
+0x0000000000088335 : mov edx, ebp ; mov rsi, r12 ; mov rdi, rbx ; call qword ptr [r14 + 0x78]
+0x000000000007d0f4 : mov edx, ebp ; mov rsi, r12 ; mov rdi, rbx ; call qword ptr [rax + 0x58]
+0x000000000007cd40 : mov edx, ebp ; mov rsi, r13 ; mov rdi, rbx ; call qword ptr [r14 + 0x48]
+0x0000000000040914 : mov edx, ebp ; mov rsi, r14 ; mov rdi, r13 ; call rbx
+0x000000000007bb5b : mov edx, ebp ; mov rsi, r14 ; mov rdi, rbx ; call qword ptr [r15 + 0x38]
+0x000000000006ede7 : mov edx, ebp ; mov rsi, r14 ; mov rdi, rbx ; call qword ptr [rax + 0x38]
+0x00000000000407bc : mov edx, ebp ; mov rsi, r15 ; mov rdi, r12 ; call rbx
+0x00000000000815d6 : mov edx, ebp ; mov rsi, rbx ; mov rdi, r15 ; call qword ptr [r14 + 0x80]
+0x000000000016c84b : mov edx, ebx ; mov rdi, r13 ; call 0x22410
+0x00000000000871a7 : mov edx, ecx ; mov rsi, r13 ; mov rdi, rbx ; call qword ptr [rax + 0x78]
+0x000000000005d8f9 : mov edx, edi ; mov rsi, r12 ; mov rdi, rbp ; call qword ptr [rax + 0x38]
+0x00000000000c2a30 : mov edx, esi ; mov qword ptr [rsp + 0x20], rdi ; call 0x4f520
+0x00000000000df4fc : mov edx, esi ; mov rdi, qword ptr [rsp + 0x18] ; mov esi, ebp ; call r13
+0x000000000005d7a1 : mov edx, esi ; mov rsi, r12 ; mov rdi, rbp ; call qword ptr [rax + 0x38]
+0x0000000000061e38 : mov edx, esi ; mov rsi, r13 ; mov rdi, rbx ; call qword ptr [r15 + 0x38]
+0x000000000006053b : mov edx, esi ; mov rsi, r13 ; mov rdi, rbx ; call qword ptr [rax + 0x38]
+0x00000000000605e2 : mov edx, esi ; mov rsi, r15 ; mov rdi, rbx ; call qword ptr [rax + 0x38]
+0x000000000006ef35 : mov edx, esi ; mov rsi, rbp ; mov rdi, rbx ; call qword ptr [rax + 0x38]
+0x0000000000086bbe : mov edx, esp ; mov rsi, r14 ; mov rdi, rbx ; call qword ptr [rax + 0x40]
+0x000000000007b5f1 : mov edx, esp ; mov rsi, rbp ; mov rdi, rbx ; call qword ptr [r13 + 0x38]
+0x000000000007d255 : mov edx, esp ; mov rsi, rbp ; mov rdi, rbx ; call qword ptr [r13 + 0x58]
+0x0000000000086557 : mov edx, esp ; mov rsi, rbp ; mov rdi, rbx ; call qword ptr [r15 + 0x80]
+0x0000000000086556 : mov edx, r12d ; mov rsi, rbp ; mov rdi, rbx ; call qword ptr [r15 + 0x80]
+0x0000000000157e25 : mov esi, 0x20 ; mov rdi, rbp ; call qword ptr [rax + 0x30]
+0x000000000016da23 : mov esi, 0x40 ; mov rdi, r12 ; call rax
+0x000000000008a2d2 : mov esi, 0xffffffff ; mov rdi, rbx ; call qword ptr [r15 + 0x18]
+0x00000000000870ca : mov esi, 0xffffffff ; mov rdi, rbx ; call qword ptr [rax + 0x18]
+0x000000000008907a : mov esi, 0xffffffff ; mov rdi, rbx ; call qword ptr [rbp + 0x18]
+0x000000000007fff3 : mov esi, 0xffffffff ; mov rdi, rbx ; call qword ptr [rbp + 0x30]
+0x0000000000089aa1 : mov esi, 0xffffffff ; mov rdi, rbx ; call qword ptr [rdx + 0x18]
+0x000000000007a10a : mov esi, 1 ; mov rdi, rbx ; call r8
+0x000000000007991c : mov esi, 1 ; mov rdi, rbx ; call rax
+0x00000000001602ca : mov esi, 6 ; mov rax, qword ptr [rdi + 8] ; call qword ptr [rax + 0x28]
+0x0000000000157ee1 : mov esi, 8 ; mov rdi, rbp ; call qword ptr [rax + 0x30]
+0x000000000015d27f : mov esi, 8 ; mov rdi, rbx ; call qword ptr [rax + 0x30]
+0x00000000001186e9 : mov esi, dword ptr [rax] ; mov rdi, qword ptr [rbp - 0x50] ; call r15
+0x00000000001587ad : mov esi, dword ptr [rbx + 0x10] ; mov rdx, rbp ; mov rdi, r13 ; call qword ptr [rax + 0x10]
+0x00000000001587e7 : mov esi, dword ptr [rbx + 0x10] ; mov rdx, rbp ; mov rdi, r13 ; call qword ptr [rax + 0x20]
+0x0000000000098b65 : mov esi, dword ptr [rbx + 0x18] ; mov rdi, qword ptr [rbx + 8] ; call qword ptr [rbx]
+0x000000000010b8d4 : mov esi, dword ptr [rbx + 0x28] ; mov rdi, qword ptr [rbx + 8] ; call qword ptr [rax + 0x10]
+0x000000000015f414 : mov esi, dword ptr [rdi + 0x88] ; mov rdi, rbx ; call qword ptr [rax + 0x28]
+0x000000000015645d : mov esi, dword ptr [rsp + 0x10] ; mov rdi, rbp ; call qword ptr [rax + 8]
+0x000000000015f462 : mov esi, dword ptr [rsp + 0x10] ; mov rdi, rbx ; call r14
+0x0000000000156488 : mov esi, dword ptr [rsp + 0x18] ; mov rdi, rbp ; call r13
+0x000000000015bd18 : mov esi, dword ptr [rsp + 0x18] ; mov rdi, rbx ; call qword ptr [rax + 8]
+0x00000000001709f7 : mov esi, eax ; mov rdi, rax ; call 0x223d0
+0x00000000001565c8 : mov esi, ebp ; mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 0x10]
+0x0000000000156474 : mov esi, ebp ; mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 8]
+0x000000000015bf30 : mov esi, ebp ; mov rdi, qword ptr [rax] ; mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 0x10]
+0x000000000015ec04 : mov esi, ebp ; mov rdi, qword ptr [rdi] ; mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 0x10]
+0x000000000016e27a : mov esi, ebp ; mov rdi, r12 ; call 0x225c0
+0x00000000001581ee : mov esi, ebp ; mov rdi, r12 ; call qword ptr [rax + 0x30]
+0x000000000003e49e : mov esi, ebp ; mov rdi, r13 ; call rax
+0x000000000003fc5a : mov esi, ebp ; mov rdi, r15 ; call rax
+0x0000000000113ee1 : mov esi, ebp ; mov rdi, rbx ; call 0x1309a0
+0x0000000000147018 : mov esi, ebp ; mov rdi, rbx ; call 0x1432d0
+0x000000000006f163 : mov esi, ebp ; mov rdi, rbx ; call 0x6bbb0
+0x000000000007b5f4 : mov esi, ebp ; mov rdi, rbx ; call qword ptr [r13 + 0x38]
+0x000000000007cfb1 : mov esi, ebp ; mov rdi, rbx ; call qword ptr [r13 + 0x48]
+0x000000000007d258 : mov esi, ebp ; mov rdi, rbx ; call qword ptr [r13 + 0x58]
+0x000000000006f47d : mov esi, ebp ; mov rdi, rbx ; call qword ptr [r14 + 0x38]
+0x000000000007cd43 : mov esi, ebp ; mov rdi, rbx ; call qword ptr [r14 + 0x48]
+0x0000000000061e3b : mov esi, ebp ; mov rdi, rbx ; call qword ptr [r15 + 0x38]
+0x000000000008655a : mov esi, ebp ; mov rdi, rbx ; call qword ptr [r15 + 0x80]
+0x000000000006053e : mov esi, ebp ; mov rdi, rbx ; call qword ptr [rax + 0x38]
+0x000000000015d2c5 : mov esi, ebp ; mov rdi, rbx ; call qword ptr [rax + 0x48]
+0x00000000000871aa : mov esi, ebp ; mov rdi, rbx ; call qword ptr [rax + 0x78]
+0x0000000000162330 : mov esi, ebp ; mov rdi, rbx ; call qword ptr [rax]
+0x000000000014d0d6 : mov esi, ebp ; mov rdi, rbx ; mov rcx, r14 ; call r12
+0x000000000015fac3 : mov esi, ebx ; mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 0x10]
+0x000000000015bd30 : mov esi, ebx ; mov rdi, qword ptr [rax] ; mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 8]
+0x0000000000041aa9 : mov esi, ebx ; mov rdi, r12 ; call 0xfe5a0
+0x000000000016c81c : mov esi, ebx ; mov rdi, r13 ; call 0x223a0
+0x0000000000119059 : mov esi, ebx ; mov rdi, r13 ; call r14
+0x000000000010bc5a : mov esi, ebx ; mov rdi, r13 ; mov rdx, qword ptr [rax + 0x38] ; call qword ptr [rax + 0x10]
+0x00000000001190ee : mov esi, ebx ; mov rdi, r14 ; call r13
+0x00000000000815d9 : mov esi, ebx ; mov rdi, r15 ; call qword ptr [r14 + 0x80]
+0x0000000000157f61 : mov esi, ebx ; mov rdi, rbp ; call 0x164200
+0x0000000000040759 : mov esi, ecx ; mov rdi, r12 ; call rbx
+0x000000000016a358 : mov esi, ecx ; mov rdi, rcx ; call 0x116e30
+0x00000000000407bf : mov esi, edi ; mov rdi, r12 ; call rbx
+0x000000000016fda6 : mov esi, edi ; mov rdi, rax ; call 0x22600
+0x000000000016956d : mov esi, edi ; mov rdi, rbx ; call 0x22440
+0x0000000000170eff : mov esi, edi ; mov rdi, rbx ; call 0x22670
+0x00000000000605e5 : mov esi, edi ; mov rdi, rbx ; call qword ptr [rax + 0x38]
+0x0000000000164024 : mov esi, esi ; mov rdi, r12 ; call r13
+0x0000000000040917 : mov esi, esi ; mov rdi, r13 ; call rbx
+0x000000000016aa14 : mov esi, esi ; mov rdi, rbp ; call 0x22600
+0x0000000000165bb0 : mov esi, esi ; mov rdi, rbp ; call r12
+0x0000000000170ef0 : mov esi, esi ; mov rdi, rbx ; call 0x22670
+0x000000000007bb5e : mov esi, esi ; mov rdi, rbx ; call qword ptr [r15 + 0x38]
+0x00000000001571a9 : mov esi, esi ; mov rdi, rbx ; call qword ptr [rax + 0x28]
+0x000000000006edea : mov esi, esi ; mov rdi, rbx ; call qword ptr [rax + 0x38]
+0x0000000000086bc1 : mov esi, esi ; mov rdi, rbx ; call qword ptr [rax + 0x40]
+0x0000000000040756 : mov esi, esi ; mov rsi, rcx ; mov rdi, r12 ; call rbx
+0x0000000000040879 : mov esi, esp ; mov rdi, r13 ; mov rdx, rbp ; call rbx
+0x00000000001695c1 : mov esi, esp ; mov rdi, r14 ; call 0x22440
+0x000000000007f4c7 : mov esi, esp ; mov rdi, r14 ; call qword ptr [rax + 0x18]
+0x00000000000407a1 : mov esi, esp ; mov rdi, r14 ; call rbx
+0x000000000016e5ba : mov esi, esp ; mov rdi, rbp ; call 0x225c0
+0x000000000007ddf9 : mov esi, esp ; mov rdi, rbp ; call qword ptr [r14 + 0x38]
+0x000000000005d7a4 : mov esi, esp ; mov rdi, rbp ; call qword ptr [rax + 0x38]
+0x00000000000d0682 : mov esi, esp ; mov rdi, rbp ; call rbx
+0x000000000007d0cd : mov esi, esp ; mov rdi, rbx ; call qword ptr [r13 + 0x58]
+0x000000000008735f : mov esi, esp ; mov rdi, rbx ; call qword ptr [r13 + 0x90]
+0x000000000007dd3f : mov esi, esp ; mov rdi, rbx ; call qword ptr [r14 + 0x38]
+0x0000000000088338 : mov esi, esp ; mov rdi, rbx ; call qword ptr [r14 + 0x78]
+0x0000000000086109 : mov esi, esp ; mov rdi, rbx ; call qword ptr [r15 + 0x90]
+0x000000000007d0f7 : mov esi, esp ; mov rdi, rbx ; call qword ptr [rax + 0x58]
+0x0000000000158c37 : mov esi, esp ; mov rdi, rbx ; call qword ptr [rax]
+0x0000000000086d40 : mov esi, esp ; mov rdi, rbx ; call qword ptr [rbp + 0x70]
+0x000000000007a698 : mov esi, esp ; mov rdi, rbx ; call qword ptr [rbp + 0x90]
+0x000000000015bf87 : mov esi, esp ; mov rdi, rbx ; call r13
+0x0000000000165a82 : mov esi, esp ; mov rdi, rbx ; call rcx
+0x000000000014cce5 : mov esi, esp ; mov rdi, rbx ; mov rcx, r13 ; call r10
+0x000000000007f4c6 : mov esi, r12d ; mov rdi, r14 ; call qword ptr [rax + 0x18]
+0x00000000001581ed : mov esi, r13d ; mov rdi, r12 ; call qword ptr [rax + 0x30]
+0x00000000001571a8 : mov esi, r14d ; mov rdi, rbx ; call qword ptr [rax + 0x28]
+0x000000000003e1b5 : mov qword ptr [rbp], rdx ; mov rdi, qword ptr [rbx + 8] ; call rax
+0x00000000000a2b39 : mov qword ptr [rbx + 0x48], rdi ; call rax
+0x00000000000a2a6a : mov qword ptr [rbx], rdi ; mov dword ptr [rbx + 0x30], eax ; call rcx
+0x00000000000a2b36 : mov qword ptr [rbx], rsi ; mov qword ptr [rbx + 0x48], rdi ; call rax
+0x0000000000164ab7 : mov qword ptr [rsp + 0x10], rax ; mov rax, qword ptr [rdi + 8] ; call qword ptr [rax + 8]
+0x00000000000d5983 : mov qword ptr [rsp + 0x18], rdi ; call 0x22480
+0x00000000000d59cc : mov qword ptr [rsp + 0x20], rdi ; call 0x22480
+0x00000000000c2a32 : mov qword ptr [rsp + 0x20], rdi ; call 0x4f520
+0x000000000008b887 : mov qword ptr [rsp + 8], rax ; mov rdi, rsi ; call qword ptr [rbp + 0x348]
+0x00000000000813de : mov qword ptr [rsp + 8], rcx ; mov rdi, r15 ; call rax
+0x0000000000158b4e : mov qword ptr [rsp], rax ; mov rax, qword ptr [rdi + 8] ; call qword ptr [rax + 8]
+0x00000000000864af : mov qword ptr [rsp], rcx ; mov rdi, rbx ; call rax
+0x000000000003e1b4 : mov qword ptr fs:[rbp], rdx ; mov rdi, qword ptr [rbx + 8] ; call rax
+0x000000000009177f : mov r13d, r12d ; mov rdi, r15 ; call 0x8da40
+0x0000000000098b64 : mov r14, qword ptr [rbx + 0x18] ; mov rdi, qword ptr [rbx + 8] ; call qword ptr [rbx]
+0x0000000000040755 : mov r14, rsi ; mov rsi, rcx ; mov rdi, r12 ; call rbx
+0x000000000014c99a : mov r8, rbp ; mov rcx, r14 ; mov rdi, r13 ; call r12
+0x0000000000156c48 : mov rax, qword ptr [r12 + 8] ; mov rdi, r12 ; call qword ptr [rax + 0x20]
+0x000000000015fc6c : mov rax, qword ptr [r13 + 0x60] ; mov rdi, r12 ; call qword ptr [rax + 0x20]
+0x000000000015ef14 : mov rax, qword ptr [r14 + 0x70] ; mov rdi, r12 ; call qword ptr [rax + 0x20]
+0x00000000001614b4 : mov rax, qword ptr [r14 + 8] ; mov rdi, r14 ; call qword ptr [rax + 0x20]
+0x000000000015f474 : mov rax, qword ptr [r15 + 0x60] ; mov rdi, rbx ; call qword ptr [rax + 0x20]
+0x00000000001630da : mov rax, qword ptr [rbp + 0x18] ; mov rdi, r13 ; call qword ptr [rax + 0x20]
+0x0000000000024c9d : mov rax, qword ptr [rbp - 0x68] ; mov rdi, r14 ; call rax
+0x00000000001566a2 : mov rax, qword ptr [rbx + 0x20] ; mov rdi, rbp ; call qword ptr [rax + 0x20]
+0x00000000001575b8 : mov rax, qword ptr [rbx + 0x38] ; mov rdi, rbx ; call qword ptr [rax + 0x20]
+0x000000000015ff4d : mov rax, qword ptr [rbx + 0x60] ; mov rdi, r12 ; call qword ptr [rax + 0x20]
+0x0000000000156d7e : mov rax, qword ptr [rbx + 8] ; mov rdi, rbx ; call qword ptr [rax + 0x20]
+0x0000000000162468 : mov rax, qword ptr [rbx + 8] ; mov rdi, rbx ; call qword ptr [rax + 0x28]
+0x0000000000162310 : mov rax, qword ptr [rbx + 8] ; mov rdi, rbx ; call qword ptr [rax + 8]
+0x00000000001565ca : mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 0x10]
+0x0000000000156526 : mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 0x18]
+0x0000000000160229 : mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 0x20]
+0x0000000000156476 : mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 8]
+0x000000000015f44d : mov rax, qword ptr [rdi + 0x38] ; mov rsi, rbx ; call qword ptr [rax + 8]
+0x0000000000164a10 : mov rax, qword ptr [rdi + 8] ; call qword ptr [rax + 0x10]
+0x00000000001649e0 : mov rax, qword ptr [rdi + 8] ; call qword ptr [rax + 0x18]
+0x000000000015680c : mov rax, qword ptr [rdi + 8] ; call qword ptr [rax + 0x20]
+0x00000000001602cf : mov rax, qword ptr [rdi + 8] ; call qword ptr [rax + 0x28]
+0x0000000000157dc9 : mov rax, qword ptr [rdi + 8] ; call qword ptr [rax + 0x30]
+0x0000000000165614 : mov rax, qword ptr [rdi + 8] ; call qword ptr [rax + 0x48]
+0x0000000000158b52 : mov rax, qword ptr [rdi + 8] ; call qword ptr [rax + 8]
+0x0000000000165230 : mov rax, qword ptr [rdi + 8] ; mov rsi, rsp ; call qword ptr [rax + 0x40]
+0x0000000000158b60 : mov rax, qword ptr [rdi + 8] ; mov rsi, rsp ; call qword ptr [rax]
+0x0000000000137125 : mov rax, qword ptr [rsp + 0x18] ; mov rdi, rbx ; call rax
+0x000000000015dc91 : mov rax, qword ptr [rsp + 0x58] ; mov rdi, rbp ; call qword ptr [rax + 0x20]
+0x000000000015d958 : mov rax, qword ptr [rsp + 8] ; mov rdi, rbp ; call qword ptr [rax + 0x20]
+0x0000000000156239 : mov rax, qword ptr [rsp + 8] ; mov rdi, rbx ; call qword ptr [rax + 0x20]
+0x00000000001630d9 : mov rax, qword ptr ss:[rbp + 0x18] ; mov rdi, r13 ; call qword ptr [rax + 0x20]
+0x00000000000dee27 : mov rbp, r12 ; mov rdi, rbx ; call r14
+0x0000000000098b0b : mov rbx, qword ptr [rbx + 0x18] ; mov rdi, qword ptr [rax + 8] ; call qword ptr [rax]
+0x0000000000166a9d : mov rbx, rdi ; call 0x22480
+0x000000000016c3e2 : mov rbx, rdi ; call 0x22670
+0x00000000000955dc : mov rbx, rdi ; mov rdi, qword ptr [rdi + 8] ; call qword ptr [rbx]
+0x000000000015bd4b : mov rcx, qword ptr [rsp + 0x20] ; mov rdi, rbx ; call rcx
+0x000000000008296c : mov rcx, r14 ; mov rdi, r13 ; call r12
+0x000000000005240b : mov rcx, rbp ; mov rsi, rdi ; call 0x4e6c0
+0x0000000000167938 : mov rdi, qword ptr [r12] ; call 0x22600
+0x00000000001180c3 : mov rdi, qword ptr [r12] ; call rbp
+0x000000000011812a : mov rdi, qword ptr [r13] ; call rbp
+0x000000000015fa78 : mov rdi, qword ptr [r13] ; mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 0x18]
+0x00000000000903f5 : mov rdi, qword ptr [rax + 0x640] ; call qword ptr [rax + 0x638]
+0x0000000000098b0f : mov rdi, qword ptr [rax + 8] ; call qword ptr [rax]
+0x0000000000167954 : mov rdi, qword ptr [rax] ; call 0x22600
+0x000000000015bf32 : mov rdi, qword ptr [rax] ; mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 0x10]
+0x000000000015be69 : mov rdi, qword ptr [rax] ; mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 0x18]
+0x0000000000160226 : mov rdi, qword ptr [rax] ; mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 0x20]
+0x000000000015bd32 : mov rdi, qword ptr [rax] ; mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 8]
+0x00000000001660ea : mov rdi, qword ptr [rax] ; mov rbx, rax ; call 0x22360
+0x00000000001186eb : mov rdi, qword ptr [rbp - 0x50] ; call r15
+0x00000000000e617b : mov rdi, qword ptr [rbp - 0x708] ; call 0x22480
+0x00000000000e6648 : mov rdi, qword ptr [rbp - 0x740] ; call rbx
+0x000000000008b838 : mov rdi, qword ptr [rbx + 0x10] ; call qword ptr [rbp + 0x348]
+0x00000000000e147e : mov rdi, qword ptr [rbx + 0x18] ; mov rsi, rsp ; call 0x14d690
+0x0000000000163070 : mov rdi, qword ptr [rbx + 0x40] ; call 0x22360
+0x00000000000a2e50 : mov rdi, qword ptr [rbx + 0x48] ; call rax
+0x00000000000a2d45 : mov rdi, qword ptr [rbx + 0x48] ; mov rsi, r14 ; call rax
+0x000000000009023c : mov rdi, qword ptr [rbx + 0x640] ; call qword ptr [rbx + 0x638]
+0x000000000010b8d7 : mov rdi, qword ptr [rbx + 8] ; call qword ptr [rax + 0x10]
+0x000000000008e695 : mov rdi, qword ptr [rbx + 8] ; call qword ptr [rbx]
+0x000000000003e1b9 : mov rdi, qword ptr [rbx + 8] ; call rax
+0x00000000000858c8 : mov rdi, qword ptr [rbx] ; call 0x22360
+0x000000000016d6f0 : mov rdi, qword ptr [rbx] ; call 0x223c0
+0x0000000000118083 : mov rdi, qword ptr [rbx] ; call rbp
+0x0000000000160230 : mov rdi, qword ptr [rbx] ; mov rax, qword ptr [rdi + 8] ; call qword ptr [rax + 0x20]
+0x000000000008c17f : mov rdi, qword ptr [rdi + 0x10] ; call qword ptr [rax + 0x348]
+0x0000000000165993 : mov rdi, qword ptr [rdi + 0x18] ; call 0x22600
+0x00000000000a2c0c : mov rdi, qword ptr [rdi + 0x48] ; mov rsi, rbp ; call rax
+0x000000000007b2d9 : mov rdi, qword ptr [rdi + 0xe0] ; call rax
+0x00000000000955df : mov rdi, qword ptr [rdi + 8] ; call qword ptr [rbx]
+0x00000000000d5c61 : mov rdi, qword ptr [rdi + rbx + 0x70] ; call 0x22670
+0x000000000015ec06 : mov rdi, qword ptr [rdi] ; mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 0x10]
+0x000000000012b9c3 : mov rdi, qword ptr [rdx + 0x50] ; mov rsi, rdx ; call rax
+0x000000000016dfe0 : mov rdi, qword ptr [rsp + 0x10] ; call qword ptr [rbx + 0x348]
+0x000000000016dc67 : mov rdi, qword ptr [rsp + 0x18] ; call qword ptr [rbp + 0x348]
+0x000000000016d7ed : mov rdi, qword ptr [rsp + 0x18] ; call rax
+0x000000000016d793 : mov rdi, qword ptr [rsp + 0x18] ; call rcx
+0x00000000000df4fe : mov rdi, qword ptr [rsp + 0x18] ; mov esi, ebp ; call r13
+0x00000000001538b1 : mov rdi, qword ptr [rsp + 0x28] ; call 0x1502f0
+0x0000000000035886 : mov rdi, qword ptr [rsp + 0x40] ; call 0x22360
+0x00000000001560c0 : mov rdi, qword ptr [rsp + 0x50] ; call 0x22360
+0x0000000000135884 : mov rdi, qword ptr [rsp + 0x68] ; call 0x22360
+0x0000000000162a91 : mov rdi, r12 ; call 0x22360
+0x0000000000165cdb : mov rdi, r12 ; call 0x22370
+0x0000000000165041 : mov rdi, r12 ; call 0x22480
+0x000000000016e27c : mov rdi, r12 ; call 0x225c0
+0x0000000000170968 : mov rdi, r12 ; call 0x225e0
+0x0000000000150f3a : mov rdi, r12 ; call 0x4d9d0
+0x0000000000140460 : mov rdi, r12 ; call 0x5c760
+0x0000000000041aab : mov rdi, r12 ; call 0xfe5a0
+0x0000000000156c4d : mov rdi, r12 ; call qword ptr [rax + 0x20]
+0x00000000001585d6 : mov rdi, r12 ; call qword ptr [rax + 0x28]
+0x00000000001581f0 : mov rdi, r12 ; call qword ptr [rax + 0x30]
+0x000000000016e512 : mov rdi, r12 ; call qword ptr [rax + 0x328]
+0x0000000000164026 : mov rdi, r12 ; call r13
+0x0000000000157911 : mov rdi, r12 ; call rax
+0x000000000009a4e6 : mov rdi, r12 ; call rbp
+0x000000000004075b : mov rdi, r12 ; call rbx
+0x0000000000137a62 : mov rdi, r12 ; mov edx, 0x400 ; call rbp
+0x00000000000ca4a4 : mov rdi, r12 ; mov r9, r15 ; call rbx
+0x000000000016f3e0 : mov rdi, r12 ; mov rdx, r15 ; call 0x223d0
+0x00000000000bcfc7 : mov rdi, r12 ; mov rsi, qword ptr [rsp + 0x18] ; call rbx
+0x00000000001639ee : mov rdi, r13 ; call 0x22360
+0x0000000000170130 : mov rdi, r13 ; call 0x22370
+0x000000000016c81e : mov rdi, r13 ; call 0x223a0
+0x000000000016c84d : mov rdi, r13 ; call 0x22410
+0x000000000007d495 : mov rdi, r13 ; call 0x89f60
+0x00000000000ff6a7 : mov rdi, r13 ; call 0x8c1a0
+0x00000000001587b3 : mov rdi, r13 ; call qword ptr [rax + 0x10]
+0x000000000008975f : mov rdi, r13 ; call qword ptr [rax + 0x18]
+0x000000000015760c : mov rdi, r13 ; call qword ptr [rax + 0x20]
+0x00000000001630bd : mov rdi, r13 ; call qword ptr [rax + 0x28]
+0x000000000008296f : mov rdi, r13 ; call r12
+0x000000000011905b : mov rdi, r13 ; call r14
+0x000000000003e4a0 : mov rdi, r13 ; call rax
+0x0000000000040919 : mov rdi, r13 ; call rbx
+0x0000000000025866 : mov rdi, r13 ; mov qword ptr [rax], rsi ; call 0x22360
+0x000000000010bc5c : mov rdi, r13 ; mov rdx, qword ptr [rax + 0x38] ; call qword ptr [rax + 0x10]
+0x000000000004087b : mov rdi, r13 ; mov rdx, rbp ; call rbx
+0x00000000001702fa : mov rdi, r13 ; mov rsi, r12 ; call 0x223a0
+0x00000000001638bf : mov rdi, r14 ; call 0x22360
+0x000000000016a9aa : mov rdi, r14 ; call 0x22380
+0x00000000001695c3 : mov rdi, r14 ; call 0x22440
+0x0000000000164ea4 : mov rdi, r14 ; call 0x22480
+0x00000000001614ae : mov rdi, r14 ; call qword ptr [rax + 0x10]
+0x000000000007f4c9 : mov rdi, r14 ; call qword ptr [rax + 0x18]
+0x00000000001614b8 : mov rdi, r14 ; call qword ptr [rax + 0x20]
+0x00000000001190f0 : mov rdi, r14 ; call r13
+0x0000000000024ca1 : mov rdi, r14 ; call rax
+0x00000000000407a3 : mov rdi, r14 ; call rbx
+0x000000000016329f : mov rdi, r15 ; call 0x22360
+0x000000000016fa44 : mov rdi, r15 ; call 0x22370
+0x00000000001702ad : mov rdi, r15 ; call 0x22480
+0x0000000000091782 : mov rdi, r15 ; call 0x8da40
+0x000000000008138a : mov rdi, r15 ; call qword ptr [r14 + 0x80]
+0x00000000000814ac : mov rdi, r15 ; call qword ptr [r14 + 0x90]
+0x000000000007fc79 : mov rdi, r15 ; call qword ptr [rax + 0x20]
+0x00000000000818ce : mov rdi, r15 ; call qword ptr [rbp + 0x80]
+0x000000000007ab7b : mov rdi, r15 ; call qword ptr [rbx + 0x80]
+0x000000000003fc5c : mov rdi, r15 ; call rax
+0x0000000000024ec9 : mov rdi, r15 ; mov rax, qword ptr [rbp - 0x68] ; call rax
+0x00000000000df242 : mov rdi, r15 ; mov rsi, qword ptr [rsp + 0x60] ; call rbp
+0x000000000016cf79 : mov rdi, r8 ; call 0x22360
+0x0000000000170561 : mov rdi, r8 ; call 0x22480
+0x000000000003deb1 : mov rdi, r8 ; call rax
+0x000000000011f58b : mov rdi, r8 ; call rdx
+0x0000000000170c57 : mov rdi, rax ; call 0x22360
+0x00000000001709f9 : mov rdi, rax ; call 0x223d0
+0x000000000017097c : mov rdi, rax ; call 0x22480
+0x000000000016fda8 : mov rdi, rax ; call 0x22600
+0x000000000016dfa2 : mov rdi, rax ; call qword ptr [rbx + 0x340]
+0x0000000000160e5a : mov rdi, rax ; call qword ptr [rdx + 0x20]
+0x0000000000165cd0 : mov rdi, rax ; mov r12d, ebp ; call 0x22360
+0x0000000000157f63 : mov rdi, rbp ; call 0x164200
+0x0000000000035873 : mov rdi, rbp ; call 0x22360
+0x0000000000045aad : mov rdi, rbp ; call 0x22520
+0x000000000016e5bc : mov rdi, rbp ; call 0x225c0
+0x000000000016aa16 : mov rdi, rbp ; call 0x22600
+0x00000000000a0930 : mov rdi, rbp ; call 0x8cb60
+0x000000000007ddfb : mov rdi, rbp ; call qword ptr [r14 + 0x38]
+0x00000000001566a6 : mov rdi, rbp ; call qword ptr [rax + 0x20]
+0x0000000000158648 : mov rdi, rbp ; call qword ptr [rax + 0x28]
+0x0000000000157e2a : mov rdi, rbp ; call qword ptr [rax + 0x30]
+0x000000000005d7a6 : mov rdi, rbp ; call qword ptr [rax + 0x38]
+0x0000000000156461 : mov rdi, rbp ; call qword ptr [rax + 8]
+0x00000000001587c1 : mov rdi, rbp ; call qword ptr [rbx]
+0x000000000011e27b : mov rdi, rbp ; call r12
+0x000000000015648c : mov rdi, rbp ; call r13
+0x00000000000a2d10 : mov rdi, rbp ; call rax
+0x000000000009b656 : mov rdi, rbp ; call rbx
+0x000000000011863b : mov rdi, rbp ; mov rsi, qword ptr [rbx] ; call r12
+0x00000000000bd2af : mov rdi, rbp ; mov rsi, qword ptr [rsp + 0x10] ; call rbx
+0x0000000000109813 : mov rdi, rbx ; call 0x105ab0
+0x0000000000113ee3 : mov rdi, rbx ; call 0x1309a0
+0x000000000014701a : mov rdi, rbx ; call 0x1432d0
+0x0000000000085897 : mov rdi, rbx ; call 0x22360
+0x000000000016985f : mov rdi, rbx ; call 0x22370
+0x0000000000166148 : mov rdi, rbx ; call 0x223a0
+0x000000000016956f : mov rdi, rbx ; call 0x22440
+0x000000000016d1e4 : mov rdi, rbx ; call 0x22460
+0x000000000016ac01 : mov rdi, rbx ; call 0x22480
+0x000000000016c949 : mov rdi, rbx ; call 0x22580
+0x000000000016b3e6 : mov rdi, rbx ; call 0x22670
+0x000000000006f165 : mov rdi, rbx ; call 0x6bbb0
+0x000000000007c9b0 : mov rdi, rbx ; call 0x88bd0
+0x000000000007b5f6 : mov rdi, rbx ; call qword ptr [r13 + 0x38]
+0x000000000007cfb3 : mov rdi, rbx ; call qword ptr [r13 + 0x48]
+0x000000000007d0cf : mov rdi, rbx ; call qword ptr [r13 + 0x58]
+0x0000000000083189 : mov rdi, rbx ; call qword ptr [r13 + 0x60]
+0x0000000000087361 : mov rdi, rbx ; call qword ptr [r13 + 0x90]
+0x00000000000628aa : mov rdi, rbx ; call qword ptr [r14 + 0x38]
+0x000000000007cd45 : mov rdi, rbx ; call qword ptr [r14 + 0x48]
+0x000000000008833a : mov rdi, rbx ; call qword ptr [r14 + 0x78]
+0x00000000000882ff : mov rdi, rbx ; call qword ptr [r14 + 0x80]
+0x000000000008a2d7 : mov rdi, rbx ; call qword ptr [r15 + 0x18]
+0x0000000000061e3d : mov rdi, rbx ; call qword ptr [r15 + 0x38]
+0x000000000008655c : mov rdi, rbx ; call qword ptr [r15 + 0x80]
+0x000000000008610b : mov rdi, rbx ; call qword ptr [r15 + 0x90]
+0x00000000001616f3 : mov rdi, rbx ; call qword ptr [rax + 0x10]
+0x00000000000870cf : mov rdi, rbx ; call qword ptr [rax + 0x18]
+0x00000000000899f0 : mov rdi, rbx ; call qword ptr [rax + 0x20]
+0x00000000001571ab : mov rdi, rbx ; call qword ptr [rax + 0x28]
+0x000000000015d284 : mov rdi, rbx ; call qword ptr [rax + 0x30]
+0x0000000000060540 : mov rdi, rbx ; call qword ptr [rax + 0x38]
+0x0000000000086bc3 : mov rdi, rbx ; call qword ptr [rax + 0x40]
+0x000000000015d2c7 : mov rdi, rbx ; call qword ptr [rax + 0x48]
+0x000000000007d0f9 : mov rdi, rbx ; call qword ptr [rax + 0x58]
+0x00000000000871ac : mov rdi, rbx ; call qword ptr [rax + 0x78]
+0x0000000000086464 : mov rdi, rbx ; call qword ptr [rax + 0x80]
+0x000000000008636e : mov rdi, rbx ; call qword ptr [rax + 0x90]
+0x0000000000158c08 : mov rdi, rbx ; call qword ptr [rax + 8]
+0x0000000000158c39 : mov rdi, rbx ; call qword ptr [rax]
+0x000000000008907f : mov rdi, rbx ; call qword ptr [rbp + 0x18]
+0x000000000007f3b0 : mov rdi, rbx ; call qword ptr [rbp + 0x20]
+0x000000000007ff55 : mov rdi, rbx ; call qword ptr [rbp + 0x30]
+0x00000000000600ac : mov rdi, rbx ; call qword ptr [rbp + 0x38]
+0x000000000007ad06 : mov rdi, rbx ; call qword ptr [rbp + 0x60]
+0x000000000007d2d7 : mov rdi, rbx ; call qword ptr [rbp + 0x68]
+0x0000000000086d42 : mov rdi, rbx ; call qword ptr [rbp + 0x70]
+0x00000000000821eb : mov rdi, rbx ; call qword ptr [rbp + 0x80]
+0x0000000000087883 : mov rdi, rbx ; call qword ptr [rbp + 0x88]
+0x000000000007a69a : mov rdi, rbx ; call qword ptr [rbp + 0x90]
+0x0000000000089aa6 : mov rdi, rbx ; call qword ptr [rdx + 0x18]
+0x000000000002e9b1 : mov rdi, rbx ; call r12
+0x000000000015bf89 : mov rdi, rbx ; call r13
+0x00000000000244fc : mov rdi, rbx ; call r14
+0x000000000007a10f : mov rdi, rbx ; call r8
+0x0000000000079921 : mov rdi, rbx ; call rax
+0x0000000000025119 : mov rdi, rbx ; call rbp
+0x000000000015bd50 : mov rdi, rbx ; call rcx
+0x000000000015d243 : mov rdi, rbx ; mov dword ptr [r12 + 0x70], edx ; call qword ptr [rax + 0x30]
+0x000000000014cac8 : mov rdi, rbx ; mov qword ptr [rsp + 0x10], rcx ; call r13
+0x0000000000060fed : mov rdi, rbx ; mov qword ptr [rsp + 0x20], r11 ; call qword ptr [r13 + 0x38]
+0x000000000014cce7 : mov rdi, rbx ; mov rcx, r13 ; call r10
+0x000000000014d0d8 : mov rdi, rbx ; mov rcx, r14 ; call r12
+0x000000000016c33f : mov rdi, rbx ; mov rsi, r12 ; call 0x22670
+0x000000000015f3a9 : mov rdi, rbx ; mov rsi, r13 ; call 0x13be10
+0x000000000016b414 : mov rdi, rbx ; mov rsi, rbp ; call 0x22670
+0x000000000016a35a : mov rdi, rcx ; call 0x116e30
+0x000000000016e5d0 : mov rdi, rdx ; call 0x22460
+0x000000000008b88c : mov rdi, rsi ; call qword ptr [rbp + 0x348]
+0x00000000000a2e7a : mov rdi, rsi ; call rax
+0x00000000001624f0 : mov rdi, rsp ; mov rsi, rbx ; call qword ptr [rax + 0x18]
+0x000000000014ca00 : mov rdx, qword ptr [r15] ; mov rcx, r14 ; mov rdi, r13 ; call r12
+0x0000000000160e56 : mov rdx, qword ptr [rax + 0x38] ; mov rdi, rax ; call qword ptr [rdx + 0x20]
+0x0000000000086bbd : mov rdx, r12 ; mov rsi, r14 ; mov rdi, rbx ; call qword ptr [rax + 0x40]
+0x000000000007b5f0 : mov rdx, r12 ; mov rsi, rbp ; mov rdi, rbx ; call qword ptr [r13 + 0x38]
+0x000000000007d254 : mov rdx, r12 ; mov rsi, rbp ; mov rdi, rbx ; call qword ptr [r13 + 0x58]
+0x00000000000600a9 : mov rdx, r13 ; mov rdi, rbx ; call qword ptr [rbp + 0x38]
+0x000000000007ddf5 : mov rdx, r13 ; mov rsi, r12 ; mov rdi, rbp ; call qword ptr [r14 + 0x38]
+0x000000000007dd3b : mov rdx, r13 ; mov rsi, r12 ; mov rdi, rbx ; call qword ptr [r14 + 0x38]
+0x000000000007bb5a : mov rdx, r13 ; mov rsi, r14 ; mov rdi, rbx ; call qword ptr [r15 + 0x38]
+0x000000000005d7a0 : mov rdx, r14 ; mov rsi, r12 ; mov rdi, rbp ; call qword ptr [rax + 0x38]
+0x0000000000061e37 : mov rdx, r14 ; mov rsi, r13 ; mov rdi, rbx ; call qword ptr [r15 + 0x38]
+0x000000000006053a : mov rdx, r14 ; mov rsi, r13 ; mov rdi, rbx ; call qword ptr [rax + 0x38]
+0x00000000000605e1 : mov rdx, r14 ; mov rsi, r15 ; mov rdi, rbx ; call qword ptr [rax + 0x38]
+0x000000000006ef34 : mov rdx, r14 ; mov rsi, rbp ; mov rdi, rbx ; call qword ptr [rax + 0x38]
+0x000000000005d8f8 : mov rdx, r15 ; mov rsi, r12 ; mov rdi, rbp ; call qword ptr [rax + 0x38]
+0x000000000006f479 : mov rdx, r8 ; mov rsi, rbp ; mov rdi, rbx ; call qword ptr [r14 + 0x38]
+0x0000000000040c6f : mov rdx, rbp ; mov rdi, r12 ; call rbx
+0x00000000001587b0 : mov rdx, rbp ; mov rdi, r13 ; call qword ptr [rax + 0x10]
+0x00000000001587ea : mov rdx, rbp ; mov rdi, r13 ; call qword ptr [rax + 0x20]
+0x000000000004079d : mov rdx, rbp ; mov rsi, r12 ; mov rdi, r14 ; call rbx
+0x000000000007d0c9 : mov rdx, rbp ; mov rsi, r12 ; mov rdi, rbx ; call qword ptr [r13 + 0x58]
+0x0000000000088334 : mov rdx, rbp ; mov rsi, r12 ; mov rdi, rbx ; call qword ptr [r14 + 0x78]
+0x000000000007d0f3 : mov rdx, rbp ; mov rsi, r12 ; mov rdi, rbx ; call qword ptr [rax + 0x58]
+0x0000000000040913 : mov rdx, rbp ; mov rsi, r14 ; mov rdi, r13 ; call rbx
+0x000000000006ede6 : mov rdx, rbp ; mov rsi, r14 ; mov rdi, rbx ; call qword ptr [rax + 0x38]
+0x00000000000407bb : mov rdx, rbp ; mov rsi, r15 ; mov rdi, r12 ; call rbx
+0x000000000016c84a : mov rdx, rbx ; mov rdi, r13 ; call 0x22410
+0x00000000000871a6 : mov rdx, rcx ; mov rsi, r13 ; mov rdi, rbx ; call qword ptr [rax + 0x78]
+0x00000000001186e8 : mov rsi, qword ptr [rax] ; mov rdi, qword ptr [rbp - 0x50] ; call r15
+0x000000000010b8d3 : mov rsi, qword ptr [rbx + 0x28] ; mov rdi, qword ptr [rbx + 8] ; call qword ptr [rax + 0x10]
+0x000000000015645c : mov rsi, qword ptr [rsp + 0x10] ; mov rdi, rbp ; call qword ptr [rax + 8]
+0x000000000015f461 : mov rsi, qword ptr [rsp + 0x10] ; mov rdi, rbx ; call r14
+0x0000000000156487 : mov rsi, qword ptr [rsp + 0x18] ; mov rdi, rbp ; call r13
+0x000000000015bd17 : mov rsi, qword ptr [rsp + 0x18] ; mov rdi, rbx ; call qword ptr [rax + 8]
+0x0000000000040878 : mov rsi, r12 ; mov rdi, r13 ; mov rdx, rbp ; call rbx
+0x00000000001695c0 : mov rsi, r12 ; mov rdi, r14 ; call 0x22440
+0x00000000000407a0 : mov rsi, r12 ; mov rdi, r14 ; call rbx
+0x000000000016e5b9 : mov rsi, r12 ; mov rdi, rbp ; call 0x225c0
+0x000000000007ddf8 : mov rsi, r12 ; mov rdi, rbp ; call qword ptr [r14 + 0x38]
+0x000000000005d7a3 : mov rsi, r12 ; mov rdi, rbp ; call qword ptr [rax + 0x38]
+0x00000000000d0681 : mov rsi, r12 ; mov rdi, rbp ; call rbx
+0x000000000007d0cc : mov rsi, r12 ; mov rdi, rbx ; call qword ptr [r13 + 0x58]
+0x000000000007dd3e : mov rsi, r12 ; mov rdi, rbx ; call qword ptr [r14 + 0x38]
+0x0000000000088337 : mov rsi, r12 ; mov rdi, rbx ; call qword ptr [r14 + 0x78]
+0x000000000007d0f6 : mov rsi, r12 ; mov rdi, rbx ; call qword ptr [rax + 0x58]
+0x0000000000158c36 : mov rsi, r12 ; mov rdi, rbx ; call qword ptr [rax]
+0x0000000000086d3f : mov rsi, r12 ; mov rdi, rbx ; call qword ptr [rbp + 0x70]
+0x000000000015bf86 : mov rsi, r12 ; mov rdi, rbx ; call r13
+0x0000000000165a81 : mov rsi, r12 ; mov rdi, rbx ; call rcx
+0x000000000014cce4 : mov rsi, r12 ; mov rdi, rbx ; mov rcx, r13 ; call r10
+0x00000000001565c7 : mov rsi, r13 ; mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 0x10]
+0x000000000003fc59 : mov rsi, r13 ; mov rdi, r15 ; call rax
+0x000000000007cd42 : mov rsi, r13 ; mov rdi, rbx ; call qword ptr [r14 + 0x48]
+0x0000000000061e3a : mov rsi, r13 ; mov rdi, rbx ; call qword ptr [r15 + 0x38]
+0x000000000006053d : mov rsi, r13 ; mov rdi, rbx ; call qword ptr [rax + 0x38]
+0x00000000000871a9 : mov rsi, r13 ; mov rdi, rbx ; call qword ptr [rax + 0x78]
+0x000000000014d0d5 : mov rsi, r13 ; mov rdi, rbx ; mov rcx, r14 ; call r12
+0x0000000000164023 : mov rsi, r14 ; mov rdi, r12 ; call r13
+0x0000000000040916 : mov rsi, r14 ; mov rdi, r13 ; call rbx
+0x000000000016aa13 : mov rsi, r14 ; mov rdi, rbp ; call 0x22600
+0x0000000000165baf : mov rsi, r14 ; mov rdi, rbp ; call r12
+0x0000000000170eef : mov rsi, r14 ; mov rdi, rbx ; call 0x22670
+0x000000000007bb5d : mov rsi, r14 ; mov rdi, rbx ; call qword ptr [r15 + 0x38]
+0x000000000006ede9 : mov rsi, r14 ; mov rdi, rbx ; call qword ptr [rax + 0x38]
+0x0000000000086bc0 : mov rsi, r14 ; mov rdi, rbx ; call qword ptr [rax + 0x40]
+0x00000000000407be : mov rsi, r15 ; mov rdi, r12 ; call rbx
+0x000000000016fda5 : mov rsi, r15 ; mov rdi, rax ; call 0x22600
+0x000000000016956c : mov rsi, r15 ; mov rdi, rbx ; call 0x22440
+0x0000000000170efe : mov rsi, r15 ; mov rdi, rbx ; call 0x22670
+0x00000000000605e4 : mov rsi, r15 ; mov rdi, rbx ; call qword ptr [rax + 0x38]
+0x00000000001709f6 : mov rsi, r8 ; mov rdi, rax ; call 0x223d0
+0x000000000016a357 : mov rsi, r9 ; mov rdi, rcx ; call 0x116e30
+0x0000000000156473 : mov rsi, rbp ; mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 8]
+0x000000000016e279 : mov rsi, rbp ; mov rdi, r12 ; call 0x225c0
+0x0000000000113ee0 : mov rsi, rbp ; mov rdi, rbx ; call 0x1309a0
+0x0000000000147017 : mov rsi, rbp ; mov rdi, rbx ; call 0x1432d0
+0x000000000006f162 : mov rsi, rbp ; mov rdi, rbx ; call 0x6bbb0
+0x000000000007b5f3 : mov rsi, rbp ; mov rdi, rbx ; call qword ptr [r13 + 0x38]
+0x000000000007cfb0 : mov rsi, rbp ; mov rdi, rbx ; call qword ptr [r13 + 0x48]
+0x000000000007d257 : mov rsi, rbp ; mov rdi, rbx ; call qword ptr [r13 + 0x58]
+0x000000000006f47c : mov rsi, rbp ; mov rdi, rbx ; call qword ptr [r14 + 0x38]
+0x0000000000086559 : mov rsi, rbp ; mov rdi, rbx ; call qword ptr [r15 + 0x80]
+0x000000000006ef37 : mov rsi, rbp ; mov rdi, rbx ; call qword ptr [rax + 0x38]
+0x000000000015d2c4 : mov rsi, rbp ; mov rdi, rbx ; call qword ptr [rax + 0x48]
+0x000000000016232f : mov rsi, rbp ; mov rdi, rbx ; call qword ptr [rax]
+0x000000000015fac2 : mov rsi, rbx ; mov rax, qword ptr [rdi + 0x38] ; call qword ptr [rax + 0x10]
+0x0000000000041aa8 : mov rsi, rbx ; mov rdi, r12 ; call 0xfe5a0
+0x000000000016c81b : mov rsi, rbx ; mov rdi, r13 ; call 0x223a0
+0x0000000000119058 : mov rsi, rbx ; mov rdi, r13 ; call r14
+0x00000000001190ed : mov rsi, rbx ; mov rdi, r14 ; call r13
+0x00000000000815d8 : mov rsi, rbx ; mov rdi, r15 ; call qword ptr [r14 + 0x80]
+0x0000000000157f60 : mov rsi, rbx ; mov rdi, rbp ; call 0x164200
+0x0000000000040758 : mov rsi, rcx ; mov rdi, r12 ; call rbx
+0x000000000005240e : mov rsi, rdi ; call 0x4e6c0
+0x000000000008735e : mov rsi, rsp ; mov rdi, rbx ; call qword ptr [r13 + 0x90]
+0x0000000000086108 : mov rsi, rsp ; mov rdi, rbx ; call qword ptr [r15 + 0x90]
+0x000000000007a697 : mov rsi, rsp ; mov rdi, rbx ; call qword ptr [rbp + 0x90]

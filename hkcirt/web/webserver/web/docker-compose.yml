@@ -1,0 +1,10 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8081:8000"
+      - "1234:1234" 
+    cap_add:
+      - SYS_PTRACE
+    security_opt:
+      - seccomp:unconfined

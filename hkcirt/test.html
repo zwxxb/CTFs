@@ -1,0 +1,14 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+<script>
+    const secretKey = '3636f69fcc3760cb130c1558ffef5e24';
+    const username = "test1";
+    let score = 400;
+
+    function generateHash(data) {
+        return CryptoJS.SHA256(data).toString();
+    }
+
+    const hash = generateHash(secretKey + username + score);
+    console.log('Hash:', hash);
+</script>
+

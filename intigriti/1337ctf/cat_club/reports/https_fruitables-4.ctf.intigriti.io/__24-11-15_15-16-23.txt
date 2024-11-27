@@ -1,0 +1,33 @@
+# Dirsearch started Fri Nov 15 15:17:05 2024 as: /usr/local/bin/dirsearch -u https://fruitables-4.ctf.intigriti.io/
+
+403   199B   https://fruitables-4.ctf.intigriti.io/.ht_wsr.txt
+403   199B   https://fruitables-4.ctf.intigriti.io/.htaccess.orig
+403   199B   https://fruitables-4.ctf.intigriti.io/.htaccess.sample
+403   199B   https://fruitables-4.ctf.intigriti.io/.htaccess.save
+403   199B   https://fruitables-4.ctf.intigriti.io/.htaccess_orig
+403   199B   https://fruitables-4.ctf.intigriti.io/.htaccessBAK
+403   199B   https://fruitables-4.ctf.intigriti.io/.htaccess.bak1
+403   199B   https://fruitables-4.ctf.intigriti.io/.htaccessOLD
+403   199B   https://fruitables-4.ctf.intigriti.io/.htaccess_sc
+403   199B   https://fruitables-4.ctf.intigriti.io/.html
+403   199B   https://fruitables-4.ctf.intigriti.io/.htm
+403   199B   https://fruitables-4.ctf.intigriti.io/.htaccessOLD2
+403   199B   https://fruitables-4.ctf.intigriti.io/.htaccess_extra
+403   199B   https://fruitables-4.ctf.intigriti.io/.htpasswds
+403   199B   https://fruitables-4.ctf.intigriti.io/.htpasswd_test
+403   199B   https://fruitables-4.ctf.intigriti.io/.httr-oauth
+200     2KB  https://fruitables-4.ctf.intigriti.io/404.php
+200     2KB  https://fruitables-4.ctf.intigriti.io/account.php
+403   199B   https://fruitables-4.ctf.intigriti.io/assets/
+301   252B   https://fruitables-4.ctf.intigriti.io/assets    -> REDIRECTS TO: http://fruitables-4.ctf.intigriti.io/assets/
+301   250B   https://fruitables-4.ctf.intigriti.io/auth    -> REDIRECTS TO: http://fruitables-4.ctf.intigriti.io/auth/
+403   199B   https://fruitables-4.ctf.intigriti.io/auth/
+200     2KB  https://fruitables-4.ctf.intigriti.io/cart.php
+200     2KB  https://fruitables-4.ctf.intigriti.io/contact.php
+403   199B   https://fruitables-4.ctf.intigriti.io/controllers/
+301   249B   https://fruitables-4.ctf.intigriti.io/lib    -> REDIRECTS TO: http://fruitables-4.ctf.intigriti.io/lib/
+403   199B   https://fruitables-4.ctf.intigriti.io/lib/
+403   199B   https://fruitables-4.ctf.intigriti.io/server-status
+403   199B   https://fruitables-4.ctf.intigriti.io/server-status/
+301   253B   https://fruitables-4.ctf.intigriti.io/uploads    -> REDIRECTS TO: http://fruitables-4.ctf.intigriti.io/uploads/
+403    13B   https://fruitables-4.ctf.intigriti.io/uploads/

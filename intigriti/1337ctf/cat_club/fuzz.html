@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuzzing Unicode Characters</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+            max-height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fuzzing toLowerCase()</h1>
+    <button id="startFuzzing">Start Fuzzing</button>
+    <p>Results (Unicode code points where `.toLowerCase()` equals `n`, `o`, or `e`):</p>
+    <pre id="results">Click the button to start fuzzing...</pre>
+
+    <script>
+        document.getElementById("startFuzzing").addEventListener("click", () => {
+            const targetValues = ["n", "o", "e"]; // Target lowercase values
+            const results = [];
+            const start = 0x0000; // Start of Unicode range
+            const end = 0xFFFFFF; // End of Unicode range
+
+            for (let codePoint = start; codePoint <= end; codePoint++) {
+                try {
+                    const char = String.fromCodePoint(codePoint);
+                    if (targetValues.includes(char.toLowerCase())) {
+                        results.push(`U+${codePoint.toString(16).toUpperCase()} (${char})`);
+                    }
+                } catch (error) {
+                    // Skip invalid or unsupported characters
+                }
+
+                // Update progress in chunks
+                if (codePoint % 10000 === 0) {
+                    document.getElementById("results").textContent = `Checked up to U+${codePoint.toString(16).toUpperCase()}...`;
+                }
+            }
+
+            // Display final results
+            document.getElementById("results").textContent = results.length > 0
+                ? results.join("\n")
+                : "No matches found.";
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+    web:
+        build: ./app
+        ports:
+            - "80:80"
+        environment:
+            - NODE_ENV=production
+            - FLAG=INTIGRITI{fake_flag}
+            - HOST=http://127.0.0.1

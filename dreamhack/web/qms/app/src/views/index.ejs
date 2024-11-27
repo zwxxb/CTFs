@@ -1,0 +1,24 @@
+<%- include("partials/header.ejs") %> 
+  <h2>Quote Management System</h2>
+  <span id="theme"> 
+    <label for="theme-select">Theme</label>
+    <select name="theme" id="theme-select">
+      <% available_themes.forEach(th => {  %>
+        <option value="<%= th.id %>" <%= theme === th.id ? "selected": "" %> ><%= th.name %></option>
+      <%  }); %>
+    </select>
+  </span>
+  <h4>All quotes</h4>
+  <% if (Array.isArray(quotes)) { %>
+    <% quotes.forEach(quote => {  %>
+      <div>
+        <h5> <%= quote.title %> </h5>
+        <blockquote><p> <%= quote.content %></p><cite>— <%= quote.author.name %></cite></blockquote>
+        <button class="removeBtn" onclick="removeQuote('<%= quote._id %>')">Remove quote</button>
+      </div>
+    <%  }); %>
+  <% } %>
+  <hr>
+  <button onclick="reset.submit()">Reset database</button>
+  <form id="reset" action="/reset" method="POST" style="display: none;"></form>
+<%- include("partials/footer.ejs") %> 
