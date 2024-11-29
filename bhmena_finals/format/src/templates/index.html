@@ -1,0 +1,8 @@
+<!-- templates/index.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="mb-4">Welcome to Flight Booking</h1>
+<p class="lead">Find and book your next flight with ease!</p>
+<a href="{{ url_for('flights') }}" class="btn btn-primary">View Available Flights</a>
+{% endblock %}

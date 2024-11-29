@@ -1,0 +1,11 @@
+
+<p>Hello</p>
+
+<p>
+    Activate your account with your new email. <br>
+    (this link is valid until {{ user.emailTokenExpiration|date('F jS, Y H:i') }})
+</p>
+
+
+<p>To confirm your email change to {{ user.emailReset }}, click the link below</p>
+/email-validation/{{ user.emailTokenReset }}

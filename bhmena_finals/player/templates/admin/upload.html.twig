@@ -1,0 +1,21 @@
+{# templates/admin/upload.html.twig #}
+
+{% extends 'base.html.twig' %}
+
+{% block title %}Admin File Analysis{% endblock %}
+
+{% block body %}
+    <h1>File Analysis</h1>
+
+    {% for message in app.flashes('error') %}
+        <div class="flash-error">
+            {{ message }}
+        </div>
+    {% endfor %}
+
+    <form action="{{ path('admin_file_analysis') }}" method="post">
+        <label for="filePath">Enter File Path:</label>
+        <input type="text" id="filePath" name="filePath" required>
+        <button type="submit">Analyze</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,12 @@
+{# templates/admin/dashboard.html.twig #}
+
+{% extends 'base.html.twig' %}
+
+{% block title %}Admin Dashboard{% endblock %}
+
+{% block body %}
+    <h1>Welcome to the Admin Dashboard</h1>
+    <ul>
+        <li><a href="{{ path('admin_file_analysis') }}">File Analysis</a></li>
+    </ul>
+{% endblock %}

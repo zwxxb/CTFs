@@ -1,0 +1,13 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      MYSQL_PASSWORD: REDACTED
+      MYSQL_USER: user
+      MYSQL_HOST: localhost
+      SECRET_KEY: REDACTED
+      FLAG: flag{this_is_a_fake_flag}
+    ports:
+      - "5000:5000"

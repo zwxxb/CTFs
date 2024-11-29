@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: my_blog_app
+    restart: unless-stopped
+    environment:
+      FLAG: flag{dummy}
+      FLAGNAME: randomname
+      MYSQL_DATABASE: my_blog
+      MYSQL_USER: symfony
+      MYSQL_PASSWORD: symfony
+      MYSQL_ROOT_PASSWORD: rootpassword
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    ports:
+      - "1337:5000"       # Nginx

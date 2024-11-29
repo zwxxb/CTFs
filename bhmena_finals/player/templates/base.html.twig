@@ -1,0 +1,41 @@
+{# templates/base.html.twig #}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}My Blog{% endblock %}</title>
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="{{ path('app_home') }}">Home</a>
+        {% if app.user %}
+            <a href="{{ path('app_profile') }}">Profile</a>
+            {% if 'ROLE_ADMIN' in app.user.roles %}
+                <a href="{{ path('admin_dashboard') }}">Admin Dashboard</a>
+            {% endif %}
+            <a href="{{ path('app_logout') }}">Logout</a>
+        {% else %}
+            <a href="{{ path('app_login') }}">Login</a>
+            <a href="{{ path('app_register') }}">Register</a>
+        {% endif %}
+    </nav>
+
+    <div class="container">
+        {% for message in app.flashes('success') %}
+            <div class="flash-success">
+                {{ message }}
+            </div>
+        {% endfor %}
+
+        {% for message in app.flashes('error') %}
+            <div class="flash-error">
+                {{ message }}
+            </div>
+        {% endfor %}
+
+        {% block body %}{% endblock %}
+    </div>
+</body>
+</html>
