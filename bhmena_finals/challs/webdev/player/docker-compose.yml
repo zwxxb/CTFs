@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: combined_app
+    ports:
+      - "80:5000"  # Nginx reverse proxy
+    environment:
+      # Challenge app environment variables
+      RECAPTCHA_KEY: ADD_YOUR_KEY_FOR_TESTS # Add the site key in report.html too
+      SECRET_KEY: RANDOM
+      USERNAME: USERNAMEREDACTED
+      PASSWORD: REDACTEDPASSWORD
+      FLAG: flag{REDACTED}
+
+networks:
+  default:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.103.0.0/16

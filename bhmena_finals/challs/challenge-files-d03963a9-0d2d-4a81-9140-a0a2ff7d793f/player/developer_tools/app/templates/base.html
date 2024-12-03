@@ -1,0 +1,38 @@
+<!-- app/templates/base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }} - Developer Tools</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('main.home') }}">Home</a></li>
+            {% if current_user.is_authenticated %}
+                <li><a href="#">{{ current_user.username }}</a></li>
+                <li><a href="{{ url_for('main.storage') }}">Storage</a></li>
+                <li><a href="{{ url_for('main.quick_image_viewer') }}">Quick Image Viewer</a></li>
+                <li><a href="{{ url_for('main.logout') }}">Logout</a></li>
+            {% else %}
+                <li><a href="{{ url_for('main.login') }}">Login</a></li>
+                <li><a href="{{ url_for('main.signup') }}">Sign Up</a></li>
+            {% endif %}
+        </ul>
+    </nav>
+    <div class="container">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="flash {{ category }}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        {% block content %}{% endblock %}
+    </div>
+   <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>

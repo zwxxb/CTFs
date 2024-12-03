@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f7f7f7;
+        }
+
+        .container {
+            width: 300px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        p {
+            font-size: 1rem;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .error {
+            color: red;
+            margin-top: 10px;
+        }
+
+        .success {
+            color: green;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>User Information</h1>
+        <p id="userData">Loading...</p>
+        <p id="message" class="error"></p>
+    </div>
+
+    <script>
+        // Function to retrieve the token from cookies
+        function getCookie(name) {
+            const value = `; ${document.cookie}`;
+            const parts = value.split(`; ${name}=`);
+            if (parts.length === 2) return parts.pop().split(';').shift();
+        }
+
+        // Function to get user data by sending the token to /check_token
+        async function fetchUserData() {
+            const token = getCookie("token");
+            const messageDiv = document.getElementById("message");
+            const userDataDiv = document.getElementById("userData");
+
+            if (!token) {
+                messageDiv.textContent = "Error: No token found. Please log in.";
+                userDataDiv.textContent = "";
+                return;
+            }
+
+            try {
+                const response = await fetch("/check_token", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({ token })
+                });
+
+                const result = await response.json();
+
+                if (response.ok && result.Success) {
+                    const userInfo = result.Success.UserData;
+                    userDataDiv.innerHTML = `
+                        <strong>Username:</strong> ${userInfo.username} <br>
+                        <strong>Age:</strong> ${userInfo.age}
+                    `;
+                    messageDiv.className = "success";
+                    messageDiv.textContent = "User data loaded successfully!";
+                } else {
+                    messageDiv.className = "error";
+                    messageDiv.textContent = result.Error || "Error: Could not retrieve user data.";
+                    userDataDiv.textContent = "";
+                }
+            } catch (error) {
+                messageDiv.className = "error";
+                messageDiv.textContent = "An unexpected error occurred. Please try again.";
+                userDataDiv.textContent = "";
+            }
+        }
+
+        // Fetch user data on page load
+        window.onload = fetchUserData;
+    </script>
+</body>
+</html>

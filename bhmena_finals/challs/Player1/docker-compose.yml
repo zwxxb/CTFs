@@ -1,0 +1,11 @@
+services:
+  hello:
+    build: hello
+    image: bhm24:phphell
+    ports:
+      - 8888:8888
+    healthcheck:
+      test: ["CMD-SHELL", "curl --silent --fail http://127.0.0.1"]
+      interval: 5s
+      timeout: 10s
+      retries: 3

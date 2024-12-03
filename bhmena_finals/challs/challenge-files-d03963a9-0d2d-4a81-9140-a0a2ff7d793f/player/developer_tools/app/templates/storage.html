@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Encrypt and Store Data</h2><br>
+    <h3> As a developer you need to store your data securely. It's even available offline! </h3>
+    <form id="encrypt-form">
+        <div>
+            <label for="title">Title:</label><br>
+            <input type="text" id="title" name="title" required maxlength="100">
+        </div>
+        <div>
+            <label for="data">Data:</label><br>
+            <textarea id="data" name="data" rows="10" cols="50" required></textarea>
+        </div>
+        <div>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required minlength="6">
+        </div>
+        <div>
+            <button type="submit">Encrypt and Save</button>
+        </div>
+    </form>
+    <div id="encrypt-result" style="margin-top:20px;"></div>
+
+    <hr>
+
+    <h2>Decrypt and Retrieve Data</h2>
+    <form id="decrypt-form">
+        <div>
+            <label for="decrypt-title">Title:</label><br>
+            <input type="text" id="decrypt-title" name="decrypt-title" required maxlength="100">
+        </div>
+        <div>
+            <label for="decrypt-password">Password:</label><br>
+            <input type="password" id="decrypt-password" name="decrypt-password" required minlength="6">
+        </div>
+        <div>
+            <button type="submit">Decrypt Data</button>
+        </div>
+    </form>
+    <div id="decrypt-result" style="margin-top:20px;"></div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Include the encrypt.js script -->
+    <script src="{{ url_for('static', filename='js/encrypt.js') }}"></script>
+
+{% endblock %}

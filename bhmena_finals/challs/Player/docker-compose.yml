@@ -1,0 +1,13 @@
+services:
+  tasty:
+    build: challenge
+    image: bhm24:tasty
+    ports:
+      - 8888:8888
+    healthcheck:
+      test: ["CMD-SHELL", "curl --silent --fail http://127.0.0.1"]
+      interval: 5s
+      timeout: 10s
+      retries: 3
+    environment:
+      DYN_FLAG: BHFlagY{6e88d7df2383e0c16c67b1fe843a0614}

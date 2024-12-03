@@ -1,0 +1,13 @@
+<!-- app/templates/quick_image_viewer.html -->
+{% extends "base.html" %}
+
+{% block content %}
+    <div id="react-root"></div>
+    <!-- Include React and ReactDOM via CDN -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    
+    
+    <!-- Include your React component script -->
+    <script src="{{ url_for('static', filename='js/react_app.js') }}"></script>
+{% endblock %}

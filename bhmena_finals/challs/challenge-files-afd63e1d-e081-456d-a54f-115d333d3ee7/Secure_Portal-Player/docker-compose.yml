@@ -1,0 +1,17 @@
+version : '2.2'
+services:
+  app:
+    build: .
+    image: bhm24:second
+    restart: always
+    ports:
+      - 3000:3000
+    environment:
+      FLAG : BHFlagY{fak3_flag}
+    healthcheck:
+      test: ["CMD-SHELL", "curl --silent --fail http://127.0.0.1:3000 || exit 1"]
+      interval: 5s
+      timeout: 10s
+      retries: 3
+    cpus: "1"
+    mem_limit: "2048M"

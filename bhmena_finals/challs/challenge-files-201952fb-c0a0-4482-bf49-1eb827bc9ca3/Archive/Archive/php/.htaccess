@@ -1,0 +1,9 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# Map the root URL (/) to index.php
+RewriteRule ^$ index.php [L]
+
+# Deny access to everything else
+RewriteCond %{REQUEST_URI} !^/index\.php$
+RewriteRule .* - [F]
