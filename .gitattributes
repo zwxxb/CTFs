@@ -1,3 +1,4 @@
 *.bin filter=lfs diff=lfs merge=lfs -text
 bmena/pwn/pwn2/challenge-files-7ae1c9bc-5b0b-4e42-a477-78246c3cfafa/CPL0/app/qemu-system-x86_64 filter=lfs diff=lfs merge=lfs -text
 dreamhack/web/qms/app/src/node_modules/.cache/mongodb-memory-server/mongod-x64-kali-6.0.9 filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
